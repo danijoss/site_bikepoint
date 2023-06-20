@@ -1,0 +1,154 @@
+/* ESTILO HEADER */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(129, 2, 2);
+}
+
+header,
+header nav li a {
+    padding: 16px 0;
+    background-color:aliceblue;
+    color: rgb(129, 2, 2);
+    text-decoration: none;
+}
+
+header,
+h2, h3,
+button {
+    font-family: 'Bayon', sans-serif;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos-list img{
+    height: 18px;
+}
+
+.logos-list li{
+    display: inline;
+    margin-right: 8px;
+    margin-left: 16px;
+
+    
+}
+/* ESTILO 7 */
+
+section .container {
+    align-items: flex-start;
+}
+
+.container ul{
+    padding-top: 4px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+section {
+    color: aliceblue;
+}
+
+section p {
+    margin-bottom: 12px;
+    text-align: justify;
+    margin-right: 32px ;
+}
+/* ESTILO FOTO */
+.store-inside
+{
+    margin-left: 32px;
+
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ESTILO FORMULÁRIO */
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: aliceblue;
+    color: rgb(129, 2, 2);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(117, 135, 151);
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(129, 2, 2);
+}
+
+/*ESTILO REDES SOCIAIS */
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+footer{
+    background-color: aliceblue;
+    color: rgb(129, 2, 2);
+    padding: 16px 0;
+}
