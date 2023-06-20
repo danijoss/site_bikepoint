@@ -147,6 +147,10 @@ input:focus, textarea:focus{
     margin-right: 8px;
 }
 
+.social-links a {
+    text-decoration: none;
+}
+
 footer{
     background-color: aliceblue;
     color: rgb(129, 2, 2);
